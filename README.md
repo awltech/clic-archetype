@@ -9,3 +9,5 @@ CLiC is released under [LGPL 2.1](http://www.gnu.org/licenses/lgpl-2.1.txt).
 First of all, you'll need to install this archetype in your local Maven repository thanks to `mvn clean install`
 
 Then, simply use the archetype reference in order to generate the project's skeleton thanks to `mvn archetype:generate`
+##Info
+Warning: do not use `-SNAPSHOT` in the version you specify, it'll be automatically added in the right place. As this project uses Tycho, a special way of dealing with versions needs to be used.
